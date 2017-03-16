@@ -21,6 +21,7 @@ int main()
 
    malloc(5);
    
-
+   printf("hello world");
+    
    return(0);
 }
