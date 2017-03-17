@@ -11,17 +11,17 @@ int main()
 
    strcpy(dest, src); 
  
-   strncpy(dest,src, strlen(dest)); //DevSkim: ignore DS111237,DS154189 
+   strncpy(dest,src, strlen(dest)); 
    
-   strcat(dest, "this is bad");
+   strcat(dest, "this is bad");     //DevSkim: ignore all
 
    strncat(dest, "this is also bad", strlen(dest)); 
 
    memcpy(dest2, dest, sizeof dest);
 
    malloc(5);
-   
-   printf("hello world");
-    
+
+   printf("ahoj");
+
    return(0);
 }
