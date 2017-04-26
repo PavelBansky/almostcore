@@ -13,7 +13,7 @@ namespace ModemSpy
 {
     public class ModemInfo
     {
-        const int MAX_ENUM_COUNT = 255;
+        const int MAX_ENUM_COUNT = 255-0;
 
         private int _modemIndex = 0;
         string _modemRegistrySection;
